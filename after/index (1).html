@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Seu Nome</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="fundo-decorativo"></div>
+
+    <nav class="menu-principal">
+        <div class="container-navegacao">
+            <div class="marca-pessoal">
+                <div class="icone-marca">JS</div>
+                <span class="texto-marca">Seu Nome</span>
+            </div>
+            <ul class="lista-navegacao">
+                <li class="item-menu">
+                    <a href="#home" class="link-menu ativo">Home</a>
+                </li>
+                <li class="item-menu">
+                    <a href="#about" class="link-menu">Sobre</a>
+                </li>
+                <li class="item-menu">
+                    <a href="#projects" class="link-menu">Projetos</a>
+                </li>
+                <li class="item-menu">
+                    <a href="#contact" class="link-menu">Contato</a>
+                </li>
+            </ul>
+            <div class="botao-mobile">
+                <span class="linha-menu"></span>
+                <span class="linha-menu"></span>
+                <span class="linha-menu"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="secao-inicial">
+        <div class="wrapper-principal">
+            <div class="conteudo-apresentacao">
+                <div class="texto-apresentacao">
+                    <h1 class="saudacao">Olá,</h1>
+                    <h1 class="nome-destaque">Eu sou <span class="enfase">Matheus</span></h1>
+                    <p class="texto-dinamico">Desenvolvedor Web | Designer | Criador</p>
+                </div>
+                <div class="acoes-principais">
+                    <button class="botao-chamada">
+                        <span>Sobre Mim</span>
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                </div>
+                <div class="redes-sociais">
+                    <a href="#" class="link-social" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="link-social" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="link-social" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="link-social" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="link-social" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" class="link-social" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="imagem-perfil">
+                <div class="container-avatar">
+                    <div class="circulo-avatar">
+                        <div class="foto-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="elementos-flutuantes">
+                        <div class="elemento-flutuante primeiro"></div>
+                        <div class="elemento-flutuante segundo"></div>
+                        <div class="elemento-flutuante terceiro"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="secao-sobre">
+        <div class="container">
+            <h2 class="titulo-secao">Sobre Mim</h2>
+            <div class="conteudo-sobre">
+                <div class="texto-sobre">
+                    <p>Sou um desenvolvedor apaixonado por criar designs Web. Com foco em
+                        tecnologias modernas e design responsivo, transformo ideias em realidade através de um código.
+                    </p>
+                </div>
+                <div class="estatisticas-sobre">
+                    <div class="item-estatistica">
+                        <h3>10</h3>
+                        <p>Projetos Concluídos</p>
+                    </div>
+                    <div class="item-estatistica">
+                        <h3>1</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <div class="item-estatistica">
+                        <h3>100%</h3>
+                        <p>Clientes Satisfeitos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="secao-projetos">
+        <div class="container">
+            <h2 class="titulo-secao">Meus Projetos</h2>
+            <div class="filtros-projeto">
+                <button class="botao-filtro ativo" data-filter="all">Todos</button>
+                <button class="botao-filtro" data-filter="web">Web</button>
+                <button class="botao-filtro" data-filter="mobile">Mobile</button>
+                <button class="botao-filtro" data-filter="design">Design</button>
+            </div>
+            <div class="grade-projetos">
+                <div class="cartao-projeto" data-category="web">
+                    <div class="imagem-projeto">
+                        <div class="overlay-projeto">
+                            <div class="links-projeto">
+                                <a href="#" class="link-projeto" title="Ver Projeto">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="link-projeto" title="Código Fonte">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="placeholder-projeto">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>E-commerce Moderno</h3>
+                        <p>Plataforma de e-commerce completa com carrinho de compras, pagamentos e painel
+                            administrativo.</p>
+                        <div class="tecnologias-projeto">
+                            <span class="tag-tecnologia">React</span>
+                            <span class="tag-tecnologia">Node.js</span>
+                            <span class="tag-tecnologia">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projeto" data-category="web">
+                    <div class="imagem-projeto">
+                        <div class="overlay-projeto">
+                            <div class="links-projeto">
+                                <a href="#" class="link-projeto" title="Ver Projeto">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="link-projeto" title="Código Fonte">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="placeholder-projeto">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Dashboard interativo para análise de dados com gráficos dinâmicos e relatórios em tempo real.
+                        </p>
+                        <div class="tecnologias-projeto">
+                            <span class="tag-tecnologia">Vue.js</span>
+                            <span class="tag-tecnologia">D3.js</span>
+                            <span class="tag-tecnologia">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projeto" data-category="mobile">
+                    <div class="imagem-projeto">
+                        <div class="overlay-projeto">
+                            <div class="links-projeto">
+                                <a href="#" class="link-projeto" title="Ver Projeto">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="link-projeto" title="Código Fonte">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="placeholder-projeto">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>App de Tarefas</h3>
+                        <p>Aplicativo móvel para gerenciamento de tarefas com sincronização em nuvem e notificações.</p>
+                        <div class="tecnologias-projeto">
+                            <span class="tag-tecnologia">React Native</span>
+                            <span class="tag-tecnologia">Redux</span>
+                            <span class="tag-tecnologia">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projeto" data-category="design">
+                    <div class="imagem-projeto">
+                        <div class="overlay-projeto">
+                            <div class="links-projeto">
+                                <a href="#" class="link-projeto" title="Ver Projeto">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="link-projeto" title="Código Fonte">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="placeholder-projeto">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>Identidade Visual</h3>
+                        <p>Criação completa de identidade visual para startup, incluindo logo, cores e guidelines.</p>
+                        <div class="tecnologias-projeto">
+                            <span class="tag-tecnologia">Figma</span>
+                            <span class="tag-tecnologia">Illustrator</span>
+                            <span class="tag-tecnologia">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projeto" data-category="web">
+                    <div class="imagem-projeto">
+                        <div class="overlay-projeto">
+                            <div class="links-projeto">
+                                <a href="#" class="link-projeto" title="Ver Projeto">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="link-projeto" title="Código Fonte">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="placeholder-projeto">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>Blog Pessoal</h3>
+                        <p>Blog responsivo com sistema de comentários, categorias e painel administrativo completo.</p>
+                        <div class="tecnologias-projeto">
+                            <span class="tag-tecnologia">Next.js</span>
+                            <span class="tag-tecnologia">Prisma</span>
+                            <span class="tag-tecnologia">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-projeto" data-category="web">
+                    <div class="imagem-projeto">
+                        <div class="overlay-projeto">
+                            <div class="links-projeto">
+                                <div class="links-projeto">
+                                    <a href="#" class="link-projeto" title="Ver Projeto">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="link-projeto" title="Código Fonte">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="placeholder-projeto">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="conteudo-projeto">
+                        <h3>Jogo da Memória</h3>
+                        <p>Jogo interativo desenvolvido com JavaScript puro, com sistema de pontuação e níveis.</p>
+                        <div class="tecnologias-projeto">
+                            <span class="tag-tecnologia">HTML5</span>
+                            <span class="tag-tecnologia">CSS3</span>
+                            <span class="tag-tecnologia">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="secao-contato">
+        <div class="container">
+            <h2 class="titulo-secao">Entre em Contato</h2>
+            <div class="conteudo-contato">
+                <div class="informacoes-contato">
+                    <h3>Vamos trabalhar juntos!</h3>
+                    <p>Estou sempre aberto a novas oportunidades e projetos interessantes. Entre em contato comigo!</p>
+                    <div class="item-contato">
+                        <i class="fas fa-envelope"></i>
+                        <span>seuemail@exemplo.com</span>
+                    </div>
+                    <div class="item-contato">
+                        <i class="fas fa-phone"></i>
+                        <span>+55 (11) 99999-9999</span>
+                    </div>
+                    <div class="item-contato">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>São Paulo, SP - Brasil</span>
+                    </div>
+                </div>
+                <form class="formulario-contato">
+                    <div class="grupo-campo">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="grupo-campo">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="grupo-campo">
+                        <input type="text" placeholder="Assunto" required>
+                    </div>
+                    <div class="grupo-campo">
+                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="conteudo-rodape">
+                <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+                <div class="redes-rodape">
+                    <a href="#" class="link-rodape">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="link-rodape">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="link-rodape">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="link-rodape">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="notificacao">
+        <div class="avatar-notificacao">
+            <i class="fas fa-user"></i>
+            <span class="badge-notificacao">1</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
